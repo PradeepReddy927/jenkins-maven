@@ -38,12 +38,12 @@ steps {
 sh "mvn install"
 }
 }
-stage("shell script")
-  steps{
+stage("shell script"){
+  stage{
     script{
       '''#!/bin/bash
-      echo "hello world"
-      '''
+      echo "Hello world"
+      ...
     }
   }
 }
