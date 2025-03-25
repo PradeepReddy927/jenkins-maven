@@ -43,10 +43,9 @@ stage("shell script"){
     script{
       '''#!/bin/bash
       echo "Hello world"
-      ...
+      '''
     }
   }
 }
 }
 }
-
