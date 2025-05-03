@@ -42,7 +42,7 @@ stage("shell script"){
   steps{
     script{
       '''#!/bin/bash
-      echo "Hello world"
+      echo "Hello World"
       '''
     }
   }
